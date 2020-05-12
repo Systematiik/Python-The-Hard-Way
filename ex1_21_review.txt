@@ -1,0 +1,95 @@
+#ex1
+> print()
+print is used to print statements
+example: print("Hello World!")
+
+#ex2
+> #
+The number sign is used to create comments
+
+#ex3
+> you can do math in print statements
+example: print("5 + 8 = ", 5 + 8)
+ output: 13
+
+#ex4
+> setting numbers to variables
+example: number_of_cars = 5
+
+#ex5
+> setting strings and math to variables
+examples: name = 'Jeremy'
+          addition = 5 + 7
+
+#ex6
+> ability to print variables in a print()
+example (1): hello = 'hello'
+print(f"{hello} world!")
+    or
+print(hello, " world!")
+
+#ex7
+> escape sequence such as end=' ' in print statements
+there are escape statements to break print statements
+
+#ex8
+> the use of functions such as .format()
+example: format() is used to allow the user to display variables in a print in {}
+         formatter = '{}'
+         print(formatter.format(2))
+    output = 2
+
+#ex9
+> more escape sequences
+examples: \n \t \r
+
+#ex10
+> applying strings with escape sequences and calling them in print statements
+example: hw = "hello\nworld!"
+         print(hw)
+
+#ex11
+> introduction to input()
+example: age = input()
+         #this asks for input for the variable age
+
+#ex12
+> shows you how to use input() to ask a question without print
+example: age = input("How old are you? ")
+
+#ex13
+> introduction to argv
+> take arguments in terminal to execute
+example: from sys import argv
+         script, first = argv
+
+#ex14
+> combination of argv and inputs
+> asking the user for arguments, then inputs for further input
+
+#ex15
+> introduction to opening files
+> open(), read()
+
+#ex16
+> opening files with argv
+> open, truncate, and write to a file
+
+#ex17
+> copying the contents of one text file to another
+
+#ex18
+> introduction to def
+> using methods to create mini scripts
+
+#ex19
+> using math in methods
+
+#ex20
+> using methods to print a whole text file
+> start the file from the very first byte
+> print each line seperately with a counter incrementing by 1
+
+#ex21
+> using math in methods to display what gets executed first
+example: what = add(age, subtract(height, multiply(weight, divide(iq,2))))
